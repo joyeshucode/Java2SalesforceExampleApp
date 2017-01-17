@@ -25,15 +25,15 @@ import org.json.JSONException;
 
 public class JavaRestAPITest {
 	//connection data
-			private static final String clientID="3MVG9ZL0ppGP5UrDNdel1Ppxwxy.6y0Y0c_ER_.ZOoFjHB0B6S6P0gK.YpM97jn9h2_OxB3lphopsddjGRBsp";
-			private static final String clientSecret="4012020884160474413";
+			private static final String clientID="appid";
+			private static final String clientSecret="secret key";
 			private static final String redirectURI="https://localhost:8443/callback";
 			private static String tokenURL=null;
 			static final String GRANTSERVICE = "/services/oauth2/token?grant_type=password";
 			private static final String environementURL="https://login.salesforce.com";
-			private static final String userName="tapas.t1@tcs.cm";
-			private static final String password="@Babu2991#";
-			private static final String securityToken="pDYfZDTtrNTgnFyrEy1KLttJd";
+			private static final String userName="username";
+			private static final String password="password";
+			private static final String securityToken="securitytoken";
 			
 			private static String accessToken=null;
 			private static String instanceURL=null;
